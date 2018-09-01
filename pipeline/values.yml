@@ -1,0 +1,6 @@
+deploy:
+  internalPort: 3000
+  ingress:
+    enabled: true
+  env:
+    DEBUG: app:*,lib:*,dbg:*

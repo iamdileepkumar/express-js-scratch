@@ -1939,12 +1939,6 @@ eslint-ast-utils@^1.0.0:
     lodash.get "^4.4.2"
     lodash.zip "^4.2.0"
 
-eslint-config-prettier@3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-3.0.1.tgz#479214f64c1a4b344040924bfb97543db334b7b1"
-  dependencies:
-    get-stdin "^6.0.0"
-
 eslint-config-prettier@^2.9.0:
   version "2.10.0"
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-2.10.0.tgz#ec07bc1d01f87d09f61d3840d112dc8a9791e30b"
@@ -2036,7 +2030,7 @@ eslint-plugin-node@^7.0.0:
     resolve "^1.8.1"
     semver "^5.5.0"
 
-eslint-plugin-prettier@2.6.2, eslint-plugin-prettier@^2.6.0:
+eslint-plugin-prettier@^2.6.0:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-2.6.2.tgz#71998c60aedfa2141f7bfcbf9d1c459bf98b4fad"
   dependencies:

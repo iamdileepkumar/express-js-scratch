@@ -1,5 +1,4 @@
 import express from 'express'
-import _ from 'lodash'
 import debug from '@watchmen/debug'
 /* eslint-disable import/extensions */
 import {version} from '../../package.json'

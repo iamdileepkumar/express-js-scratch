@@ -1,8 +1,8 @@
 module.exports = {
-  listener: {
-    auth: {
-      secret: 's3cret',
-      relaxCredentials: true
-    }
-  }
+	listener: {
+		auth: {
+			secret: 's3cret',
+			relaxCredentials: true
+		}
+	}
 }

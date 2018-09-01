@@ -1,6 +1,5 @@
 import http from 'http'
 import terminus from '@godaddy/terminus'
-import _ from 'lodash'
 import debug from '@watchmen/debug'
 
 const dbg = debug(__filename)

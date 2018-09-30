@@ -16,7 +16,7 @@ const dbg = debug(__filename)
 
 const app = express()
 
-let secretOrPublicKey = _.get(config, 'listener.auth.secret')
+let secretOrPublicKey = _.get(config, 'listener.auth.secret', 's3cret')
 if (!secretOrPublicKey) {
 	const key = _.get(config, 'listener.auth.publicKey')
 	assert(key, 'secret or public-key required')
@@ -63,7 +63,7 @@ export default (async function() {
 
 	app.use('/healthz', healthzRouter)
 
-	const port = config.get('listener.port')
+	const port = _.get(config, 'listener.port', 3000)
 
 	const server = getTerminusServer({app})
 
